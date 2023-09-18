@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscriçãoo</title>
+</head>
+<body>
+    <form action="./usuario.html" method="get" >
+        <fieldset style="display: flex;flex-direction: column;align-items: flex-start;">
+            <legend>Dados pessoais</legend>
+            <label for="nomeId">nome:</label>
+            <input type="text" name="nome" size="30" maxlength="3" id="nomeId" required>
+            <label>idade:
+                <input type="number" name="idade" id="">
+            </label>
+            <label>email:
+                <input type="email" name="email" id="">
+            </label>
+            <label>senha:
+                <input type="password" name="senha" id="">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados escolares</legend>
+            <label>
+                grau de instrução
+                <select name="escolaridade" id="">
+                    <option value="0" disabled selected>selecione a escolaridade</option>
+                    <option value="1">ensino fundamental</option>
+                    <option value="2">ensino médio</option>
+                    <option value="3">ensino superior</option>
+                </select>
+            </label>
+            <br/> situação <br/>
+            <label>
+                a fazer
+                <input type="radio" name="situacao" id="" checked>
+            </label>
+            <label>
+                em andamento
+                <input type="radio" name="situacao" id="">
+            </label>
+            <label>
+                não concluído
+                <input type="radio" name="situacao" id="">
+            </label>
+            <label>
+                concluído
+                <input type="radio" name="situacao" id="">
+            </label>
+            <br/>
+            conhecimentos
+            <br/>
+            <label>
+                HTML
+                <input type="checkbox" name="html" id="">
+            </label>
+            <label>
+                CSS
+                <input type="checkbox" name="html" id="">
+            </label>
+            <label>
+                Javascript
+                <input type="checkbox" name="html" id="">
+            </label>
+            <label>
+                UX design
+                <input type="checkbox" name="html" id="">
+            </label>
+        </fieldset>
+        
+
+        <input type="submit" value="cadastrar">
+        <input type="reset" value="resetar campos">
+    </form>
+</body>
+</html>

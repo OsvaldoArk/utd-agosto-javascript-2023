@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.painel{
+    width: 800px;
+    height:400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 15px;
+}
+
+.navegacao{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    border-radius: 5px;
+    background-color: purple;
+}
+
+.cabecalho{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+.sessao01{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.sessao02{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.lateral{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 15px;
+    background-color: salmon;
+}
+
+.rodape{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+}
+
+.extra01{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border-radius: 15px;
+    background-color: crimson;
+}
+
+.extra02{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    border-radius: 15px;
+    background-color: slateblue;
+}
+
+/*
+hardskills
+1 - lógica de programação. conhecimento semântica e sintaxe.
+2 - estruturas de dados.
+3 - projetos.
+4 - softskills. 
+5 - networking.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

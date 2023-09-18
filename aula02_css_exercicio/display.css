@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.painel{
+    display: grid;
+    grid-template-columns: 35vw 35vw 25vw;
+    grid-template-rows: 10vh 35vh 35vh 10vh;
+    gap: 15px;
+    grid-template-areas: 
+    "navegacao navegacao navegacao"
+    "cabecalho cabecalho lateral"
+    "sessao01 sessao02 lateral"
+    "rodape rodape rodape";
+}
+
+.navegacao{
+    grid-area: navegacao;
+    border-radius: 15px;
+    background-color: purple;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+.sessao01{
+    grid-area: sessao01;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.sessao02{
+    grid-area: sessao02;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.lateral{
+    grid-area: lateral;
+    border-radius: 15px;
+    background-color: salmon;
+}
+
+.rodape{
+    grid-area: rodape;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Satisfy&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+main{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+article.noticia{
+    width:800px;
+    height:380px;
+    border: 1px solid black;
+}
+
+article.noticia:hover{
+    box-shadow: 2px 3px 3px rgba(0,0,0,.7);
+    transition: box-shadow 0.5s;
+}
+
+div.texto{
+    margin: 10px;
+}
+
+#imagem-artigo{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+    object-position: 50% 25%;
+}
+
+figure > figcaption{
+    display:none;
+}
+
+article > div.texto > h6{
+
+    color: rgba(0,0,0,.4);
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-principal{
+    margin: 15px 0px 10px 0px;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape > a{
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+}
+
+button{
+    margin: 5px 0px 10px 0px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding:3px;
+    color:aliceblue;
+    background-color: darkcyan;
+}

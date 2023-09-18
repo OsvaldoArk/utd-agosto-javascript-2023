@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.painel{
+    width: 100vw;
+    height: 100vh;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao{
+
+    width: 100%;
+    height:50px;
+    border-radius: 15px;
+    background-color: purple;
+}
+
+.geral{
+    width: 100%;
+    height:350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.esquerda{
+    width: 73%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 40%;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+.sessoes{
+    width:100%;
+    height: 55%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sessao{
+    width: 49%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+.lateral{
+    width: 25%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: salmon;
+}
+
+.rodape{
+    width: 100%;
+    height:50px;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+}
