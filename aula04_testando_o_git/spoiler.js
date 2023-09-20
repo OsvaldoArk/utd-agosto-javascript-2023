@@ -1,0 +1,1 @@
+console.log("O Franklin vive adiantando matéria.");
