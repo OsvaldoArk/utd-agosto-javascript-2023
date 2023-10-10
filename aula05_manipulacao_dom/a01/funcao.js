@@ -1,4 +1,4 @@
-document.getElementById('adicionar').addEventListener('mouseout', () =>{
+document.getElementById('adicionar').addEventListener('click', () =>{
    const input = document.getElementById('nome').value;
    
    const lista = document.getElementById('lista');
