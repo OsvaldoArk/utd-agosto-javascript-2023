@@ -1,0 +1,11 @@
+#filmePainel{
+    width:80vw;
+    height:700px;
+}
+
+.posterFilme{
+    width: 30vw;
+    height:80vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
