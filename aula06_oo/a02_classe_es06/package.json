@@ -1,0 +1,12 @@
+{
+  "name": "a02_classe_es06",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "classe.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
