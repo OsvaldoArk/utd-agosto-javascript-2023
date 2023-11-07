@@ -1,0 +1,25 @@
+.navegacao{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao-img{
+    height: 100%;
+}
+
+ul{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li a{
+    color:black;
+    text-decoration: none;
+}
