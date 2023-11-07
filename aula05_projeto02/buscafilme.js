@@ -3,7 +3,7 @@ document.getElementById('formulario').addEventListener('submit',async (evento)=>
 
     const filme = evento.target[0].value;
 
-    const resposta = await fetch(`http://omdbapi.com/?apikey=f29c9eef&t=${filme}`);
+    const resposta = await fetch(`http://omdbapi.com/?apikey=${suachaveaqui}t=${filme}`);
     
     const dados = await resposta.json();
     
